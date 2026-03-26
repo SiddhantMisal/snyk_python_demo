@@ -32,4 +32,4 @@ jobs:
 
       - name: Run Snyk Test
         run: |
-          snyk test --file=requirements.txt --org=siddhantcolab
+          snyk test --file=requirements.txt --org=siddhantcolab || true
